@@ -1,6 +1,6 @@
 const quizForm = document.querySelector(".quiz-form");
 const checkButton = document.querySelector("#check-button");
-const output = document.querySelector("output-box");
+const output = document.querySelector("#output-box");
 
 const correctAnswer = ["90", "right-angled"];
 
@@ -14,7 +14,7 @@ function calculateScore() {
         }
         i = i + 1;
     }
-console.log(score);
+    output.innerText = "Your score is " + score;
 }
 
 checkButton.addEventListener("click" ,  calculateScore);

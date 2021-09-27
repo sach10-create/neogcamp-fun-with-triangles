@@ -5,18 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypotenuse</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <nav class="navigation">
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class= "link  link-active" href="./triangle.html">Is Triangle?</a>
+            </li>
+            <li class="list-item-inline">
+                <a class= "link" href="./quiz.html">Quiz</a>
+            </li>
+            <li class="list-item-inline">
+                <a class= "link" href="./hypotenuse.html">Hypotenuse</a>
+            </li>
+            <li class="list-item-inline">
+                <a class= "link" href="./area.html">Area</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="box">
         <h1 class="heading">Hypotenuse</h1>
         <label >a=
-            <input type="number" id="input1">
+            <input type="number" id="input1" style="margin-top: 1rem;">
         </label>
+        <br>
         <label >b=
-            <input type="number" id="input2">
+            <input type="number" id="input2" style="margin-top: 1rem;">
         </label>
-        <button id="calc-button">Calculate Hypotenuse</button>
-        <div id="output-box"></div>
+        <br>
+        <button id="calc-button" style="margin-top: 1rem;">Calculate Hypotenuse</button>
+        <div id="output-box" style="margin-top: 1rem;"></div>
     </div>
     <script src="./triangle-hypo.js"></script>
 </body>

@@ -9,9 +9,13 @@ function calcSumOfSquares(num1, num2) {
 }
 
 function calcHypotenuse() {
-    var sumOfSquares = calcSumOfSquares(a.value,b.value);
-    var hypo = Math.sqrt(sumOfSquares);
-    output.innerText = "Hypotenuse is " + hypo;
+    if (a.value.length > 0 && b.value.length > 0 && a.value > 0 && b.value > 0){
+        var sumOfSquares = calcSumOfSquares(a.value, b.value);
+        var hypo = Math.sqrt(sumOfSquares);
+        output.innerText = "Hypotenuse is " + hypo;
+    } else {
+        alert("Invalid Inputs");
+    }
 }
 
 button.addEventListener("click", calcHypotenuse)

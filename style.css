@@ -52,3 +52,23 @@ body{
 .angle-input{
     margin-bottom: 2rem;
 }
+
+#check-button{
+    font-size: 1.5rem;
+}
+
+label{
+    font-size: 1.5rem;
+}
+#calc-button{
+    font-size: 1.5rem;
+}
+#output-box{
+    font-size: 1.5rem;
+}
+.output-box{
+    font-size: 1.5rem;
+}
+.calc-button{
+    font-size: 1.5rem;
+}

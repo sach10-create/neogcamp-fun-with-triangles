@@ -1,4 +1,4 @@
-body{
+body {
     text-align: center;
 }
 
@@ -28,6 +28,7 @@ body{
 .navigation .nav-pills {
     text-align: left;
 }
+
 .navigation .link {
     color: white;
 }
@@ -44,31 +45,36 @@ body{
     margin-bottom: 1rem;
 }
 
-.box{
+.box {
     display: block;
-    margin : auto;
+    margin: auto;
     width: 40%;
 }
-.angle-input{
+
+.angle-input {
     margin-bottom: 2rem;
 }
 
-#check-button{
+#check-button {
     font-size: 1.5rem;
 }
 
-label{
+label {
     font-size: 1.5rem;
 }
-#calc-button{
+
+#calc-button {
     font-size: 1.5rem;
 }
-#output-box{
+
+#output-box {
     font-size: 1.5rem;
 }
-.output-box{
+
+.output-box {
     font-size: 1.5rem;
 }
-.calc-button{
+
+.calc-button {
     font-size: 1.5rem;
 }
